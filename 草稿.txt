@@ -1,0 +1,11 @@
+    <el-from :rules="rules" :ref="dataForm" :model="temp" lable-width="80px">
+       <el-form-item lable="学生姓名" prop="studentName">
+         <el-input v-model="temp.studentName"></el-input>
+       </el-form-item>
+       <el-form-item lable="昵称" prop="studentName">
+         <el-input v-model="temp.studentName"></el-input>
+       </el-form-item>
+       <el-form-item lable="性别" prop="">
+         <el-radio v-model="radio" label="1">男</el-radio>
+         <el-radio v-model="radio" label="2">女</el-radio>
+        </el-form-item>
