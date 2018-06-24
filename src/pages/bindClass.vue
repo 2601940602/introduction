@@ -19,7 +19,6 @@
 		},
 		methods: {
 			btnClick: function(){
-//				this.isActive = false;
 				this.isActive = !this.isActive;//对其取反
 			}
 		}
