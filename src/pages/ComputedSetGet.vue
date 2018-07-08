@@ -1,5 +1,6 @@
 <template>
   <div id="example">
+  	<!--你好呀 -->
     <!-- 设置计算属性的绑定字段，即reversedMessage的计算属性绑定到此输入框 -->
     <!-- 输入框中内容变化会调用相应的getter, setter计算属性 -->
     <input v-model="reversedMessage">

@@ -8,6 +8,8 @@ import BindClass from '@/pages/bindClass'
 import ComputedSetGet from '@/pages/ComputedSetGet'
 import BindClass2 from '@/pages/bindClass2'
 import Index from '@/pages/index'
+import carousel from '@/pages/carousel'
+import txtTest from '@/pages/txtTest'
 
 Vue.use(Router)
 
@@ -47,6 +49,18 @@ export default new Router({
     	path: '/Index',
     	name: 'Index',
     	component: Index
+    }
+    ,
+    {
+    	path: '/carousel',
+    	name: 'carousel',
+    	component: carousel
+    }
+    ,
+    {
+    	path: '/txtTest',
+    	name: 'txtTest',
+    	component: txtTest
     }
   ]
 })
